@@ -1,17 +1,18 @@
-# LogInSystem :gear:
+# LogInSystem
 
-## :warning: Important Note 
+## Important Note
 
-Before getting started, please ensure you have the following prerequisites:
-
-- [Spring Tool Suite 4](#) :computer:
-- A compatible database for the backend services :floppy_disk:
-
-For the database, no need to create tables manually; the system uses **ORM** :file_folder: (Object-Relational Mapping) for this purpose. By default, this backend uses **PostgreSQL** :elephant:, but you can configure it for another database if necessary. 
-
-
-## :information_source: About
-
-Welcome to the LogInSystem! :wave: This backend has been developed using **Spring Boot** :spring: to create APIs. It leverages **ORM**  for seamless database interactions and  regular expressions :1234: for data validation.
+To use this backend, you must have `Spring Tool Suite 4`, 
+and to run  backend services, you need to create a database no need to create table in database bczuse i used `ORM`. 
+In this backend, PostgreSQL is used; to use another database, you
+need to add all the necessary dependencies for that database in the 
+`pom.xml` file for each service. Additionally, you need to configure
+your database in the `application-dev.properties` file in each service.
+The path to this file for each service is `src/main/resources`.
 
 
+## Key Technologies:
+- <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="50"> Spring Boot
+- <img src="https://cdn0.iconfinder.com/data/icons/programming-and-coding-3/48/16-Code-1024.png" width="50"> Regular Expression
+- <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" width="50"> PostgreSQL
+- <img src="https://cdn3.iconfinder.com/data/icons/essential-pack-2/48/46-Area-1024.png" width="50"> Object-Relational Mapping
