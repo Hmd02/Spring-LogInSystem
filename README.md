@@ -1,6 +1,6 @@
 # LogInSystem Backend
 
-This repository contains the backend system for user authentication and password management using Spring Boot and PostgreSQL. It offers APIs for user signup, login, and password reset.
+The `LogInSystem Backend` is a robust and secure solution for user authentication and password management, built using Spring Boot and PostgreSQL. It provides a set of powerful APIs that can be easily integrated into your web or mobile application to handle user registration, login, and password reset.
 
 ## Table of Contents
 
@@ -10,7 +10,6 @@ This repository contains the backend system for user authentication and password
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
