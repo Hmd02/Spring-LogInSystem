@@ -26,11 +26,24 @@ Before using this backend, ensure you have the following:
 - **Regular Expression**: Used for pattern matching and validation.
 - **PostgreSQL**: A popular open-source relational database.
 - **Object-Relational Mapping (ORM)**: Simplifies database interactions with Java objects.
+    <table>
+    <tr><th colspan="4">
+    Technologies
+    </th>
+    </tr>
+    <tr>
+    <td>
+    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="50"></td>
+    <td><img src="https://cdn0.iconfinder.com/data/icons/programming-and-coding-3/48/16-Code-1024.png" width="50"></td>
+    <td><img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" width="50"></td>
+    <td><img src="https://cdn3.iconfinder.com/data/icons/human-resources-70/133/12-1024.png" width="50"></td>
+    </tr>
+    </table>
 
 ## API Endpoints
 
 1. **User Signup**
-   - Endpoint: `/signup`
+   - Endpoint: `http://localhost:8085/signup`
    - Method: POST
    - Input:
      ```json
@@ -43,22 +56,22 @@ Before using this backend, ensure you have the following:
      ```
 
 2. **User Login**
-   - Endpoint: `/login/{userId}/{password}`
+   - Endpoint: `http://localhost:8085/login/{userId}/{password}`
    - Method: GET
 
 3. **Password Reset (Step 1 - Check User)**
-   - Endpoint: `/resetIn`
+   - Endpoint: `http://localhost:8085/resetIn`
    - Method: POST
    - Input:
      ```json
      {
-         "userId": "Ankur000",
+         "userId": "UserID",
          "dob": "16/2/22"
      }
      ```
 
 4. **Password Reset (Step 2 - Update Password)**
-   - Endpoint: `/updatePassword/{userID}/{newpassword}`
+   - Endpoint: `http://localhost:8085/updatePassword/{userID}/{newpassword}`
    - Method: POST
 
 Explore the application for additional APIs that may assist in your UI development.
@@ -79,6 +92,3 @@ To use this backend, start the Spring Boot application and make HTTP requests to
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or create a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
