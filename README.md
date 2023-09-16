@@ -26,20 +26,7 @@ Before using this backend, ensure you have the following:
 - **Regular Expression**: Used for pattern matching and validation.
 - **PostgreSQL**: A popular open-source relational database.
 - **Object-Relational Mapping (ORM)**: Simplifies database interactions with Java objects.
-    <table align="center">
-    <tr><th colspan="4" align="center">
-    Technologies
-    </th>
-    </tr>
-    <tr>
-    <td>
-    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="50"></td>
-    <td><img src="https://cdn0.iconfinder.com/data/icons/programming-and-coding-3/48/16-Code-1024.png" width="50"></td>
-    <td><img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" width="50"></td>
-    <td><img src="https://cdn3.iconfinder.com/data/icons/human-resources-70/133/12-1024.png" width="50"></td>
-    </tr>
-    </table>
-
+    
 ## API Endpoints
 
 1. **User Signup**
