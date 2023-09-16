@@ -18,4 +18,4 @@ The path to this file for each service is `src/main/resources`.
 - <img src="https://cdn3.iconfinder.com/data/icons/human-resources-70/133/12-1024.png" width="50"> Object-Relational Mapping
 
     # For Test The APIs
-    -<img scr="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/postman-1024.png" width="50> PostMan Used 
+    -<img scr="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/postman-1024.png" width="50"> PostMan Used 
