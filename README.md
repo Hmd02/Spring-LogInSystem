@@ -27,7 +27,7 @@ Before using this backend, ensure you have the following:
 - **PostgreSQL**: A popular open-source relational database.
 - **Object-Relational Mapping (ORM)**: Simplifies database interactions with Java objects.
     <table align="center">
-    <tr><th colspan="4">
+    <tr><th colspan="4" align="center">
     Technologies
     </th>
     </tr>
