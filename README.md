@@ -1,10 +1,5 @@
 # LogInSystem Backend
 
-![Spring Boot](https://www.vectorlogo.zone/logos/springio/springio-icon.svg)
-![Regular Expression](https://cdn0.iconfinder.com/data/icons/programming-and-coding-3/48/16-Code-1024.png)
-![PostgreSQL](https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg)
-![Object-Relational Mapping](https://cdn3.iconfinder.com/data/icons/human-resources-70/133/12-1024.png)
-
 This repository contains the backend system for user authentication and password management using Spring Boot and PostgreSQL. It offers APIs for user signup, login, and password reset.
 
 ## Table of Contents
@@ -30,7 +25,7 @@ Before using this backend, ensure you have the following:
 - **Spring Boot**: A powerful framework for building Java-based applications.
 - **Regular Expression**: Used for pattern matching and validation.
 - **PostgreSQL**: A popular open-source relational database.
-- **Object-Relational Mapping**: Simplifies database interactions with Java objects.
+- **Object-Relational Mapping (ORM)**: Simplifies database interactions with Java objects.
 
 ## API Endpoints
 
@@ -46,7 +41,7 @@ Before using this backend, ensure you have the following:
          "password": "password"
      }
      ```
-   
+
 2. **User Login**
    - Endpoint: `/login/{userId}/{password}`
    - Method: GET
