@@ -15,4 +15,4 @@ The path to this file for each service is `src/main/resources`.
 - <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="50"> Spring Boot
 - <img src="https://cdn0.iconfinder.com/data/icons/programming-and-coding-3/48/16-Code-1024.png" width="50"> Regular Expression
 - <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" width="50"> PostgreSQL
-- <img src="https://cdn3.iconfinder.com/data/icons/essential-pack-2/48/46-Area-1024.png" width="50"> Object-Relational Mapping
+- <img src="https://cdn3.iconfinder.com/data/icons/human-resources-70/133/12-1024.png" width="50"> Object-Relational Mapping
