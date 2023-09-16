@@ -26,7 +26,7 @@ Before using this backend, ensure you have the following:
 - **Regular Expression**: Used for pattern matching and validation.
 - **PostgreSQL**: A popular open-source relational database.
 - **Object-Relational Mapping (ORM)**: Simplifies database interactions with Java objects.
-    <table>
+    <table align="center">
     <tr><th colspan="4">
     Technologies
     </th>
